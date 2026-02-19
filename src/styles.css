@@ -84,7 +84,6 @@ em {
   box-shadow: var(--box-shadow);
   color: white;
   font-family: "JetBrains Mono", monospace;
-  font-size: clamp(14px, 1.75vw, 18px);
 }
 
 .primary-link:hover {
