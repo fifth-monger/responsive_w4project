@@ -2,10 +2,13 @@
   --primary-color: #d0946f;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --nav-h: 70px;
 }
 
 body {
-  margin: 50px 0;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
 }
 
 h1,
@@ -42,10 +45,20 @@ em {
   color: #939b7d;
 }
 
-.hero {
-  background: #f7f6f2;
-  text-align: center;
-  padding: 160px 20px;
+.snap {
+  height: calc(100dvh - var(--nav-h));
+  margin-top: var(--nav-h);
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+.panel {
+  height: 100%;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  display: grid;
+  place-items: center;
 }
 
 .navbar {
