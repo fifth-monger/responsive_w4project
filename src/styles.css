@@ -5,7 +5,7 @@
 }
 
 body {
-  margin: 100px 0;
+  margin: 50px 0;
 }
 
 h1,
@@ -40,6 +40,12 @@ p {
 
 em {
   color: #939b7d;
+}
+
+.hero {
+  background: #f7f6f2;
+  text-align: center;
+  padding: 160px 20px;
 }
 
 .navbar {
@@ -160,7 +166,7 @@ em {
     text-align: center;
     margin: 0 20px;
   }
-  .email-link {
+  .email-wrap {
     font-size: 20px;
   }
   .project-container {
