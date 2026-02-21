@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #d0946f;
+  --primary-color: #939b7d;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --nav-h: 72px;
@@ -7,8 +7,6 @@
 
 body {
   height: 100%;
-  margin: 0;
-  overflow: hidden;
 }
 
 h1,
@@ -42,7 +40,8 @@ p {
 }
 
 em {
-  color: #939b7d;
+  color: #916b3a;
+  font-weight: bolder;
 }
 
 .snap {
@@ -62,8 +61,9 @@ em {
 }
 
 .navbar {
-  background-color: #e8d8c7;
+  background-color: #d6e1c9;
   font-family: "Space Grotesk", sans-serif;
+  border-bottom: black solid 2px;
 }
 
 .navbar .navbar-brand,
@@ -86,6 +86,10 @@ em {
   justify-content: center;
 }
 
+.greeting {
+  font-family: "Source Serif 4", serif;
+  font-weight: 400;
+}
 .navigation-links a {
   margin: 20px;
   border-radius: 4px;
@@ -103,6 +107,7 @@ em {
   box-shadow: var(--box-shadow);
   color: white;
   font-family: "JetBrains Mono", monospace;
+  border: black solid 1px;
 }
 
 .primary-link:hover {
@@ -111,7 +116,7 @@ em {
 
 .secondary-link {
   color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  border: 2px solid var(--primary-color);
   font-family: "JetBrains Mono", monospace;
 }
 .secondary-link:hover {
@@ -122,6 +127,10 @@ em {
   color: var(--primary-color);
   text-align: center;
   display: block;
+}
+
+.secondary-page {
+  margin: 82px;
 }
 
 .about-paragraphs {
@@ -143,6 +152,7 @@ em {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   border: black solid 2px;
+  font-size: 30px;
 }
 .connect-text {
   display: inline-block;
@@ -179,8 +189,10 @@ em {
     text-align: center;
     margin: 0 20px;
   }
-  .email-wrap {
+  .email-container {
     font-size: 20px;
+    border-radius: 15px;
+    padding: 50px 75px;
   }
   .project-container {
     box-shadow: var(--box-shadow);
