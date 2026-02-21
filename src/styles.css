@@ -195,7 +195,6 @@ em {
     padding: 50px 75px;
   }
   .project-container {
-    box-shadow: var(--box-shadow);
     padding: 1em;
   }
 }
